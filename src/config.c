@@ -9,7 +9,7 @@ int window_height = 250;
 void load_config(void)
 {
 	char line[256];
-	FILE * file = fopen("sticky_notes.conf", "r");
+	FILE * file = fopen("config/sticky_notes.conf", "r");
 
 	if (!file)
 	{
