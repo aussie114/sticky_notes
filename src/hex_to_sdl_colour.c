@@ -9,5 +9,5 @@ SDL_Color hexToSDL_Color(const char * hexColour)
 	{
 		return (SDL_Color){r, g, b, 255};
 	}
-	return (SDL_Color){255, 255, 136, 255};
+	return (SDL_Color){255, 246, 139, 255};
 }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
 #include <hex_to_sdl_colour.h>
@@ -15,7 +14,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		puts("Usage: ./sticky_notes \"#FFFF88\" \"line1\" \"line2\" \"line3\"");
+		puts("Usage: ./sticky_notes \"#FFF68246, 139B\" \"line1\" \"line2\" \"line3\"");
 		return -1;
 	}
 
@@ -50,7 +49,6 @@ int main(int argc, char* argv[])
 			TTF_DrawRendererText(textObject, 10, 5 + (y * (font_size + 5)));
 			TTF_DestroyText(textObject);
 		}
-
 		SDL_RenderPresent(renderer);
 		SDL_Delay(16);
     }
@@ -60,6 +58,5 @@ int main(int argc, char* argv[])
     SDL_DestroyWindow(window);
 	TTF_Quit();
     SDL_Quit();
-
     return 0;
 }
