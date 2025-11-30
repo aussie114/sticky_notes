@@ -1,5 +1,5 @@
 ## Example
-![screenshot_001.png](https://github.com/aussie114/stick_notes/blob/master/screenshots/screenshot_001.png)  
+![screenshot_001.png](https://github.com/aussie114/sticky_notes/blob/master/screenshots/screenshot_001.png)  
 
 ## Dependencies  
 SDL3   
